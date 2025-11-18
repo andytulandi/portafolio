@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin: 15px;
+    border: 10px solid tomato;
+    padding: 15px;
+}
+.main{
+    background-color: aqua;
+    width: 8
+    0%;
+    display: flex;
+}
+p{
+    width: 250px;
+    margin: 10px;
+    border: 10px;
+    box-sizing: border-box;
+}

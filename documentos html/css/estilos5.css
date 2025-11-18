@@ -1,0 +1,102 @@
+.maingrande{
+    background-color: rgb(4, 4, 83);
+    height: 1000px;
+}
+.headermain{
+    background-color: rgb(4, 4, 83);
+    height: 150px;
+    border-radius: 5px;
+    display: flex;
+}
+header{
+    background-color: rgb(4, 4, 83);
+    width: 300px;
+    height: 70px;
+    margin: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.maincentral{
+    background-color: rgb(4, 4, 83);
+    width: 600px;
+    height: 70px;
+    margin: 30px;
+    display: flex;
+    border-radius: 10px;
+}
+.vendermas{
+    background-color: rgba(132, 168, 168, 0.849);
+    width: 100px;
+    height: 20px;
+    margin: 25px;
+    border-radius: 10px;
+}
+.expandirmarca{
+    background-color: rgba(132, 168, 168, 0.849);
+    width: 100px;
+    height: 20px;
+    margin: 25px;
+    border-radius: 10px;
+}
+.mejorargestion{
+    background-color: rgba(132, 168, 168, 0.849);
+    width: 100px;
+    height: 20px;
+    margin: 25px;
+    border-radius: 10px;
+}
+.paradesarrolladores{
+    background-color: rgba(132, 168, 168, 0.849);
+    width: 100px;
+    height: 20px;
+    margin: 25px;
+    border-radius: 10px;
+}
+.mainderecho{
+    background-color: rgb(4, 4, 83);
+    width: 200px;
+    height: 70px;
+    margin: 30px;
+    border-radius: 10px;
+    display: flex;
+}
+.creartienda{
+    background-color: rgba(132, 168, 168, 0.849);
+    width: 100px;
+    height: 20px;
+    margin: 25px;
+    border-radius: 10px;
+}
+.barralateral{
+    background-color: rgba(132, 168, 168, 0.849);
+    width: 60px;
+    height: 40px;
+    margin: 14px;
+    border-radius: 10px;
+}
+h1{
+    background-color: rgb(4, 4, 83);
+    width: 1280px;
+    height: 40px;
+    margin: 80px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 90px;
+}
+p{
+    background-color: rgb(4, 4, 83);
+    width: 1280px;
+    height: 40px;
+    margin: 30px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: xx-large;
+}
+.video{
+    background-color: rgba(132, 168, 168, 0.849);
+    width: 1280px;
+    height: 500px;
+    margin: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
