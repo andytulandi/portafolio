@@ -1,6 +1,14 @@
 .formulario{
-    border: 1px solid red;
-    width: 60%;
-    margin: auto;
-    padding: 5%;
+    border-radius: 5px;
+    width: 90%;
+    margin: 5px;
+    padding: 3%;
+}
+.menu1{
+    justify-content: space-around;
+}
+.REDES{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
 }

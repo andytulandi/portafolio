@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portafolio de servicio de andres tulandi</title>
     <link rel="stylesheet" href="css/estilos8.css">
+    <link rel="stylesheet" href="css/formulario.css">
     <link rel="shortcut icon" href="icon/cliente.png" type="image/x-icon">
 </head>
 <body>
     <main class="maingrande">
-        <header class="encabezado">MI PORTAFOLIO</header>
+        <header class="encabezado" ></header>
             <header>
                 <section class="miportafolio" ><br> 
 
@@ -18,10 +19,10 @@
                     </p>
                 </section>
                 <nav class="menu1">
-                    <ul class="items">
-                        <li class="listitems"></li><a href="#INFORMACION">INFORMACION</a></li>
-                        <li class="listitems"></li><a href="#TRABAJOS" >TRABAJOS</a></li>
-                        <li class="listitems"></li><a href="#CONTACTOS">CONTACTO</a>
+                    <ul class="items ">
+                        <li class="listitems"></li><a href="#miinformacion">INFORMACION</a></li>
+                        <li class="listitems"></li><a href="#mi_trabajo" >TRABAJOS</a></li>
+                        <li class="listitems"></li><a href="#contacto.html">CONTACTO</a>
                         <li class="listitems"></li><a href="#REDES" >REDES</a></li>
                         </ul>
                 </nav>
@@ -41,7 +42,7 @@
                 </p>
             </article>
     </main>
-            
+            <main class="mi_trabajo margint">
             </ul>
             <ul><p>MI TRABAJO</p>
                 <li>Diagnóstico y entendimiento</li>
@@ -56,17 +57,11 @@
                 <li>Experiencia técnica sólida y actualizada</li>
                 <li>Flexibilidad para adaptarme a distintos tipos de negocio</li>
                 <li>Enfoque en la solución, no solo en el código</li>
-
             </ul>
-            <main></main>
-            
-            
-</body>
-</html>
-                    <main>
-        <h1>SERVICIOS</h1>
+            </main>
+                <main class="SERVICIOS">
         <table>
-            <caption>SERVICIOS A OFRECER</caption>
+            <h1>SERVICIOS A OFRECER</h1>
             <THead>
                 <TR>
                     <th>DESARROLLO WEB</th>
@@ -106,8 +101,6 @@
                     <td>CI/CD</td>
                     <td>Mentorías</td>
                 </tr>
-                
-                
             </tbody>
             <tfoot>
                 <tr>
@@ -115,4 +108,30 @@
                 </tr>
             </tfoot>
         </table>
+        </main>
+        <h1>CONTACTO</h1>
+    <form class="formulario">
+        <label for="NOMBRE">NOMBRE</label>
+        <input id="NOMBRE" type="text"> <br>
+        <label for="APELLIDO">APELLIDO</label>
+        <input id="APELLIDO" type="text"><br>
+        <label for="EMAIL">EMAIL</label>
+        <input id="EMAIL" type="email"><br>
+        <label for="documento">documento</label>
+        <input id="documento" type="file">
+
+        <br>
         
+        <input type="button" value="enviar">
+        <input type="button" value="guardar">
+
+    </form>
+    <h1>REDES</h1>
+    <section class="REDES">
+        <img src="icon/whatsapp.png" alt="img">
+        <img src="icon/facebook.png" alt="img">
+        <img src="icon/tik-tok.png" alt="img">
+    </section>
+    
+    </body>
+</html>
